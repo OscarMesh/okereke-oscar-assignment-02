@@ -58,6 +58,7 @@ function celsiusToFahrenheit(arrayOfNumbers) {
         return Math.floor(celsius * (9 / 5) + 32);
     });
     return fahrenheit;
+    // return converted arraysOfNumbers
 }
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
